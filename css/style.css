@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-image: url(../images/horloge.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 7rem;
+    color: white;
+    margin-bottom: 10px
+}
+
+#clock {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 7rem;
+    font-weight: bold;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 0%, 50%, 0.301);
+    width: 100%;
+}
+
+#date {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 7rem;
+    font-weight: bold;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 18%, 43%, 0.301);
+    width: 100%;
+    color: rgb(31, 30, 30);
+}
+
+#stopWatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #80808069,
+}
+
+#myH1 {
+    font-size: 4rem;
+    font-family: 'Ariel', sans-serif;
+    color: hsla(20, 99%, 30%, 0.877);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid;
+    border-radius: 50px;
+    background-color: white;
+}
+
+#display
