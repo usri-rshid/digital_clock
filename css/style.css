@@ -64,7 +64,50 @@ h1 {
     padding: 30px;
     border: 5px solid;
     border-radius: 50px;
-    background-color: white;
+    background-color: hsla(0, 0%, 100%, 0.541);
 }
 
-#display
+#display {
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 2px rgba(204, 93, 2, 0.877);
+
+}
+
+#controls button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+#startBtn {
+    background: hsla(120, 98%, 50%, 0.747);
+}
+
+#stopBtn {
+    background: hsla(0, 98%, 50%, 0.747);
+}
+
+#resetBtn {
+    background: hsla(189, 98%, 50%, 0.747);
+}
+
+#startBtn:hover {
+    background: hsl(120, 100%, 29%);
+}
+
+#stopBtn:hover {
+    background: hsl(0, 98%, 34%);
+}
+
+#resetBtn:hover {
+    background: hsl(189, 100%, 28%);
+}
